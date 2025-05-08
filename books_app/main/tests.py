@@ -218,7 +218,7 @@ class MainTests(unittest.TestCase):
         # Set up
         create_books()
         create_user()
-        logout(self.app)
+        logout(self.app) #added
 
         # Make GET request
         response = self.app.get('/create_book')
